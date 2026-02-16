@@ -59,7 +59,7 @@ export default function Home() {
           fontFamily: "'Georgia', serif",
         }}
       >
-        Start the Ride
+        Start the Adventure
       </Link>
     </div>
   );
