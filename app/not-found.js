@@ -27,7 +27,7 @@ export default function NotFound() {
 
     return (
         <>
-            <style jsx global>{`
+            <style dangerouslySetInnerHTML={{ __html: `
                 @keyframes floatUp {
                     0% { transform: translateY(0) rotate(0deg); opacity: 0; }
                     10% { opacity: 1; }
@@ -43,7 +43,7 @@ export default function NotFound() {
                     0%, 100% { text-shadow: 0 0 20px rgba(255, 68, 0, 0.6), 0 0 40px rgba(255, 68, 0, 0.3); }
                     50% { text-shadow: 0 0 30px rgba(255, 68, 0, 0.8), 0 0 60px rgba(255, 68, 0, 0.5); }
                 }
-            `}</style>
+            `}} />
 
             <div style={{
                 position: 'fixed',
