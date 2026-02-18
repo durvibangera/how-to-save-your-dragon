@@ -61,7 +61,7 @@ export default function Home() {
             color: "#ffeaa7",
           }}
         >
-          How To Game Your Dragon
+          How To Save Your Dragon
         </h1>
         <p
           style={{

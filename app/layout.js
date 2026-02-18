@@ -12,7 +12,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "How To Game Your Dragon",
+  title: "How To Save Your Dragon",
   description: "A roller coaster ride through 6 dragon realms of adventure",
 };
 
